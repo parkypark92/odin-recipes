@@ -1,0 +1,14 @@
+.container {
+    width: 960px;
+    margin: auto;
+    background-image: url(./images/main-background.jpg);
+}
+
+h1 {
+    text-align: center;
+}
+
+.baby-img, .home-img {
+    float: left;
+    margin: 5px;
+}
