@@ -6,8 +6,8 @@
     width: 960px;
     margin: auto;
     background-image:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url(./images/main-background.jpg);
-    border: 1px solid gray;
     min-height: 95vh;
+    overflow: auto;
     
 }
 
@@ -22,6 +22,8 @@ h1 {
     text-align: center;
     padding-top: 45px;
     margin: 10px auto;
+    margin-bottom: 20px;
+    border: 1px solid gray;
     background-image: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1)), url(./images/header-img.jpg);
     background-position-y: 50%;
 
@@ -47,4 +49,37 @@ figure {
 
 figcaption {
     padding-left: 10px;
+}
+
+.recipe-main-img {
+    float: left;
+}
+
+.recipe-title {
+    display: inline-block;
+    width: 460px;
+    padding: 60px 10px;
+    border-bottom: 2px solid black;
+}
+
+.caption {
+    display: inline-block;
+    width: 460px;
+}
+
+.ingredients{
+    clear: left;
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+
+.method {
+    width: 620px;
+    float: left;
+    margin: 10px;
+}
+
+.recipe-title.turkey-nachos {
+    padding: 120px 10px 60px 10px;
 }
