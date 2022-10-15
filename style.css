@@ -1,14 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
 .container {
     width: 960px;
     margin: auto;
-    background-image: url(./images/main-background.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0)), url(./images/main-background.jpg);
+    border: 1px solid gray;
+    
 }
 
 h1 {
     text-align: center;
+    padding-top: 10px;
 }
 
-.baby-img, .home-img {
-    float: left;
-    margin: 5px;
+img{
+    margin: 0px 10px;
+    opacity: 0.95;
+    border: 1px solid grey;
 }
